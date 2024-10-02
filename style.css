@@ -16,7 +16,6 @@ li {
 
 img {
     display: flex;
-    /* width: 100%; */
 }
 
 /* HEADER */
@@ -36,7 +35,6 @@ img {
 }
 
 /* MENU ICON */
-
 #check {
     display: none;
 }
@@ -49,8 +47,6 @@ img {
     right: 4%;
     display: none;
 }
-
-
 /* MENU ICON END */
 
 .links li {
@@ -85,6 +81,7 @@ img {
 }
 
 /* HERO */
+
 .hero-container {
     margin: 3% 2% 4% 2%;
     height: 85vh;
@@ -161,7 +158,8 @@ button {
     margin: 4% 8% 2% 8%;
 }
 
-/* SECTION HEADDING IS COMMON FOR ALL SECTION HEADINGS */
+/* SECTION HEADING IS COMMON FOR ALL SECTION HEADINGS */
+
 .section-heading {
     display: flex;
     flex-direction: column;
@@ -304,6 +302,7 @@ p {
 }
 
 /* SHOWCASE */
+
 .showcase-container {
     margin: 6% 8% 2% 8%;
     display: grid;
@@ -353,6 +352,7 @@ p {
 }
 
 /* DISCOVER */
+
 .discover-container {
     margin: 6% 8% 2% 8%;
 }
@@ -384,7 +384,6 @@ p {
 }
 
 .discover-box h4 {
-
     font-size: 1.2rem;
     font-weight: 700;
     color: #0a0a0a;
@@ -395,6 +394,7 @@ p {
 }
 
 /* TESTIMONIALS */
+
 .testimonial-container {
     margin: 6% 8% 2% 8%;
 }
@@ -412,7 +412,6 @@ p {
 
 .testimonial-box-front {
     background-color: #ffffff;
-    ;
     margin: 5px;
     border-radius: 1rem;
     padding: 1rem;
@@ -463,6 +462,7 @@ p {
 }
 
 /* FOOTER */
+
 footer {
     background-color: #f3f4f6;
 }
@@ -487,7 +487,6 @@ footer {
 .footer-col p {
     color: #737373;
     margin: 2rem 0px;
-    /* text-align: justify; */
     max-width: 280px;
     font-family: "Poppins", sans-serif;
 }
@@ -583,11 +582,16 @@ footer {
     }
 }
 
-
-
 @media(max-width:768px) {
     header {
         background-color: #2887ff;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #hero {
+        padding-top: 60px;
     }
 
     .nav-bar {
@@ -656,8 +660,6 @@ footer {
         justify-content: center;
     }
 }
-
-
 
 @media (max-width:576px) {
     .showcase-container {
